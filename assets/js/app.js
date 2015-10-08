@@ -115,6 +115,11 @@ colorize = function(value){
         'background': ha700,
         'color': darkOrLight(ha100)
     }).find('span').text(ha700);
+
+    $('.range-field .thumb').css({
+        'background': hc500,
+        'color': darkOrLight(hc500)
+    });
 };
 
 function copyToClipboard(text) {
